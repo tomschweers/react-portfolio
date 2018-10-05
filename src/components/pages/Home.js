@@ -11,7 +11,7 @@ class Home extends Component {
   render () {
     return (
       <div style={styles.topContainer}>
-        <div className={'FadeIn'} style={{width: '50%'}}>
+        <div className={'FadeIn'} style={{width: '90%'}}>
           <h1 style={{color: '#24292e'}}>
                   Welcome to my site
           </h1>
