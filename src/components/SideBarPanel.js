@@ -9,7 +9,7 @@ const styles = {
     backgroundColor: '#f44242',
     color: 'white',
     padding: '20px',
-    fontSize: '1.5em'
+    fontSize: '1.5em',
   }
 }
 
