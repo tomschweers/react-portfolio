@@ -21,12 +21,14 @@ class Home extends Component {
             <br />
             <br />
                   If you would like to make a similar site for yourself using
-                  this site as a starting point, clone/download my repository&nbsp;
+                  this site as a starting point, clone/download my repository
+                  &nbsp;
             <a href='https://github.com/tomschweers/react-portfolio'target='_blank'>here</a>.
             <br />
             <br />
                   If you are more interested in cloning a similar, but more basic, boilerplate for building a web application
-                  that is also mobile compatible, clone/download my repository&nbsp;
+                  that is also mobile compatible, clone/download my repository
+                  &nbsp;
             <a href='https://github.com/tomschweers/react-boilerplate'target='_blank'>here</a>.
           </p>
         </div>
