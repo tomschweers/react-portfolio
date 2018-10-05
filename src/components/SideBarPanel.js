@@ -3,12 +3,10 @@ import PropTypes from 'prop-types'
 
 const styles = {
   root: {
-    fontFamily:
-      '"HelveticaNeue-Light", Helvetica, Arial, sans-serif',
     fontWeight: 300
   },
   header: {
-    backgroundColor: '#ff6600',
+    backgroundColor: '#f44242',
     color: 'white',
     padding: '20px',
     fontSize: '1.5em'

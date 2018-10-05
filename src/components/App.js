@@ -5,10 +5,13 @@ import MainRouter from './MainRouter'
 import SideBarPanel from './SideBarPanel'
 
 // Font Awesome icons
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faBars, faHome } from '@fortawesome/free-solid-svg-icons'
-// library.add(faBars, faHome)
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+// Adding all icons to the library
+library.add(fas, far, fab)
 
 const styles = {
   contentHeaderMenuLink: {
@@ -16,12 +19,18 @@ const styles = {
     color: 'white',
     padding: 8
   },
+  contentHeaderTitle: {
+    float: 'right'
+  },
+  headerIcons: {
+    color: 'white'
+  },
   content: {
     padding: '16px'
   }
 }
 
-class App extends React.Component {
+class App extends Component {
   constructor (props) {
     super(props)
 
@@ -99,10 +108,31 @@ class App extends React.Component {
             href="#"
             style={styles.contentHeaderMenuLink}
           >
-            =
+            <FontAwesomeIcon icon={'bars'} style={styles.headerIcons} />
           </a>
         )}
-        <span> My Application</span>
+        <span style={styles.contentHeaderTitle}> 
+          &nbsp;
+          <a href='https://github.com/tomschweers' target='_blank'>
+            <FontAwesomeIcon icon={['fab', 'github']} style={styles.headerIcons} />
+          </a>
+          &nbsp;
+          &nbsp;
+          <a href='https://stackoverflow.com/users/7891298/schws' target='_blank'>
+            <FontAwesomeIcon icon={['fab', 'stack-overflow']} style={styles.headerIcons} />
+          </a>
+          &nbsp;
+          &nbsp;
+          <a href='https://www.linkedin.com/in/tomschweers/' target='_blank'>
+            <FontAwesomeIcon icon={['fab', 'linkedin-in']} style={styles.headerIcons} />
+          </a>
+          &nbsp;
+          &nbsp;
+          <a href='mailto:trschweers@gmail.com'>
+            <FontAwesomeIcon icon={'envelope-square'} style={styles.headerIcons} />
+          </a>
+          &nbsp;
+        </span>
       </span>
     )
 
