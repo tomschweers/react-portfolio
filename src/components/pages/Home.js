@@ -17,7 +17,7 @@ class Home extends Component {
           </h1>
           <p>
                   I will be using this to collect and showcase my development work as I begin building my portfolio of
-                  projects. This site itself is the first piece of my development portfolio.
+                  projects. This site itself is the first piece of my development portfolio built with Node.js and React.js.
             <br />
             <br />
                   If you would like to make a similar site for yourself using
