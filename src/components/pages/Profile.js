@@ -30,7 +30,6 @@ const styles = {
     borderSpacing: '5em 0',
     width: '100%',
     position: 'relative',
-    fontSize: '1vw',
     textAlign: 'left'
   },
   tableData: {
