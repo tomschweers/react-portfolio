@@ -6,8 +6,9 @@ const styles = {
   mainContainer: {
     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
     backgroundColor: '#ffffff',
-    margin: '2% 20%',
-    border: '1px solid #bcbcbc'
+    margin: '0 auto',
+    border: '1px solid #bcbcbc',
+    maxWidth: '800px'
   },
   divider: {
     margin: '8px 0',
@@ -15,12 +16,13 @@ const styles = {
     backgroundColor: '#757575'
   },
   backgroundPic: {
-    width: '100%'
+    width: '100.2%',
+    marginLeft: '-.5px'
   },
   profilePic: {
     width: '20%',
     borderRadius: '50%',
-    border: '4px solid #f5f5f5',
+    border: '.3em solid #f5f5f5',
     boxShadow: '0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 .2px 1px 0 rgba(0, 0, 0, 0.19)',
     marginTop: '-100px'
   },
@@ -30,6 +32,9 @@ const styles = {
     position: 'relative',
     fontSize: '1vw',
     textAlign: 'left'
+  },
+  tableData: {
+    padding: '3% 0'
   }
 }
 class Profile extends Component {
@@ -46,17 +51,11 @@ class Profile extends Component {
               </h1>
             </th>
             <tr>
-              <td>
+              <td style={styles.tableData}>
+                <h3>
+                  Summary
+                </h3>
                 <div style={styles.divider} />
-              </td>
-            </tr>
-            <tr>
-              <h3>
-                Summary
-              </h3>
-            </tr>
-            <tr>
-              <td>
                 <p>
                   Enterprise applications consultant and developer with a
                   background configuring and integrating cloud apps (SaaS)
@@ -66,19 +65,36 @@ class Profile extends Component {
               </td>
             </tr>
             <tr>
-              <h3>
-                Technologies
-              </h3>
+              <td style={styles.tableData}>
+                <h3>
+                  Technologies
+                </h3>
+                <div style={styles.divider} />
+                <p>
+                  <strong>Business systems</strong>
+                  <br />
+                  <br />
+                  Oracle CPQ Cloud, Oracle Sales Cloud, Salesforce Sales Cloud
+                  , Salesforce Service Cloud, Salesforce CPQ Cloud, Mulesoft
+                  , Oracle Integration Coud, SnapLogic, and more.
+                  <br />
+                  <br />
+                  <strong>Open source</strong>
+                  <br />
+                  <br />
+                  Git, Bash, ES6, Yarn, Node.js, React.js, Heroku, Webpack, and more.
+                </p>
+              </td>
             </tr>
             <tr>
-              <td>
+              <td style={styles.tableData}>
+                <h3>
+                  Location
+                </h3>
+                <div style={styles.divider} />
                 <p>
-                  Business systems:
-                  Oracle CPQ Cloud, Oracle Sales Cloud, Salesforce Sales Cloud, Salesforce Service Cloud, Salesforce CPQ Cloud, Mulesoft, Oracle Integration Coud, SnapLogic.
+                  San Francisco Bay Area
                   <br />
-                  <br />
-                  Open source technologies:
-                  Git, Bash, ES6, Yarn, Node.js, React.js, Heroku, Webpack.
                 </p>
               </td>
             </tr>
