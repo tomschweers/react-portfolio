@@ -17,7 +17,9 @@ const styles = {
   },
   backgroundPic: {
     width: '100.2%',
-    marginLeft: '-.5px'
+    marginLeft: '-.5px',
+    maxHeight: '200px',
+    objectFit: 'cover'
   },
   profilePic: {
     width: '20%',
