@@ -38,6 +38,8 @@ const SidebarContent = props => {
     <SideBarPanel title={'Tom Schweers'} style={style}>
       <div style={styles.content}>
         <Link to='/'style={styles.sidebarLink}>Home</Link>
+        <div style={styles.divider} />
+        <Link to='/profile'style={styles.sidebarLink}>Profile</Link>
       </div>
     </SideBarPanel>
   )
