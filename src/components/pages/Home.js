@@ -23,11 +23,11 @@ const styles = {
     objectFit: 'cover'
   },
   mainLogo: {
-    width: '20%',
+    width: '25%',
     borderRadius: '50%',
     border: '.3em solid #ededed',
     boxShadow: '0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 .2px 1px 0 rgba(0, 0, 0, 0.19)',
-    marginTop: '-100px',
+    marginTop: '-10%',
     backgroundColor: '#f5f5f5'
   },
   mainTable: {

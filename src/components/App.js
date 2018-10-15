@@ -26,7 +26,7 @@ const styles = {
     color: 'white'
   },
   content: {
-    padding: '16px'
+    padding: 'auto 0'
   }
 }
 

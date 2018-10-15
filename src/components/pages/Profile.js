@@ -8,7 +8,8 @@ const styles = {
     backgroundColor: '#ffffff',
     margin: '0 auto',
     border: '1px solid #bcbcbc',
-    maxWidth: '800px'
+    maxWidth: '800px',
+    paddingBottom: '10%'
   },
   divider: {
     margin: '8px 0',
