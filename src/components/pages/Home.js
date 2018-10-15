@@ -7,9 +7,11 @@ const styles = {
     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
     backgroundColor: '#ffffff',
     margin: '0 auto',
-    border: '1px solid #bcbcbc',
+    borderLeft: '1px solid #bcbcbc',
+    borderRight: '1px solid #bcbcbc',
     maxWidth: '800px',
-    paddingBottom: '10%'
+    paddingBottom: '10%',
+    fontSize: '.9em'
   },
   divider: {
     margin: '8px 0',
@@ -23,7 +25,7 @@ const styles = {
     objectFit: 'cover'
   },
   mainLogo: {
-    width: '25%',
+    width: '10em',
     borderRadius: '50%',
     border: '.3em solid #ededed',
     boxShadow: '0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 .2px 1px 0 rgba(0, 0, 0, 0.19)',
@@ -48,7 +50,7 @@ class Home extends Component {
           <img src={devHeader} style={styles.backgroundPic} alt='background-pic'/>
           <img src={mainLogo} style={styles.mainLogo} alt='main-logo'/>
           <table style={styles.mainTable}>
-            <th style={{textAlign: 'center'}}>
+            <th>
               <h1 style={{color: '#24292e'}}>
                   Welcome to my site
               </h1>

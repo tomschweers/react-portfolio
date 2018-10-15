@@ -7,9 +7,11 @@ const styles = {
     boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
     backgroundColor: '#ffffff',
     margin: '0 auto',
-    border: '1px solid #bcbcbc',
+    borderLeft: '1px solid #bcbcbc',
+    borderRight: '1px solid #bcbcbc',
     maxWidth: '800px',
-    paddingBottom: '10%'
+    paddingBottom: '10%',
+    fontSize: '.9em'
   },
   divider: {
     margin: '8px 0',
@@ -23,7 +25,7 @@ const styles = {
     objectFit: 'cover'
   },
   profilePic: {
-    width: '20%',
+    width: '10em',
     borderRadius: '50%',
     border: '.3em solid #f5f5f5',
     boxShadow: '0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 .2px 1px 0 rgba(0, 0, 0, 0.19)',
@@ -47,7 +49,7 @@ class Profile extends Component {
           <img src={SfHeader} style={styles.backgroundPic} alt='background-pic'/>
           <img src={ProfilePic} style={styles.profilePic} alt='profile-pic'/>
           <table style={styles.mainTable}>
-            <th style={{textAlign: 'center'}}>
+            <th>
               <h1>
                   Tom Schweers
               </h1>
