@@ -95,6 +95,7 @@ class Profile extends Component {
                 <p>
                   San Francisco Bay Area
                   <br />
+                  <br />
                 </p>
               </td>
             </tr>
