@@ -29,10 +29,10 @@ const styles = {
     borderRadius: '50%',
     border: '.3em solid #f5f5f5',
     boxShadow: '0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 .2px 1px 0 rgba(0, 0, 0, 0.19)',
-    marginTop: '-100px'
+    marginTop: '-10%'
   },
   mainTable: {
-    borderSpacing: '5em 0',
+    borderSpacing: '4em 0',
     width: '100%',
     position: 'relative',
     textAlign: 'left'
@@ -51,7 +51,7 @@ class Profile extends Component {
           <table style={styles.mainTable}>
             <th>
               <h1>
-                  Tom Schweers
+                  Profile
               </h1>
             </th>
             <tr>

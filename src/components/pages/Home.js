@@ -33,7 +33,7 @@ const styles = {
     backgroundColor: '#f5f5f5'
   },
   mainTable: {
-    borderSpacing: '5em 0',
+    borderSpacing: '4em 0',
     width: '100%',
     position: 'relative',
     textAlign: 'left'
@@ -52,7 +52,7 @@ class Home extends Component {
           <table style={styles.mainTable}>
             <th>
               <h1 style={{color: '#24292e'}}>
-                  Welcome to my site
+                  Home
               </h1>
             </th>
             <tr>
